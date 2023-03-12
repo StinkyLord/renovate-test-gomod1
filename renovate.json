@@ -5,7 +5,7 @@
   "postUpdateOptions": [
     "gomodTidy",
     "gomodUpdateImportPaths"
-  ]
+  ],
   "constraints": {
     "gomod": "^1.20"
   }
