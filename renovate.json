@@ -2,12 +2,13 @@
   "extends": [
     "config:base"
   ],
-  "postUpdateOptions": [
-    "gomodTidy",
-    "gomodUpdateImportPaths"
-  ],
+  "golang": {
+    "postUpdateOptions": [
+      "gomodTidy",
+      "gomodUpdateImportPaths"
+    ]
+  },
   "constraints": {
     "gomod": "^1.20"
   }
 }
-
